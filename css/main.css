@@ -266,7 +266,7 @@ body,html,header,section,div,ul,li,div,a,p,h1{ padding:0; margin:0; font-family:
 			    width: 462px;d
 			height: 240px;
 			border-right: 1px #fff solid;
-			padding-right: 55px;
+			padding-right: 125px;
 			float: left;
 		}
 		.s3 .text .r{
@@ -278,6 +278,9 @@ body,html,header,section,div,ul,li,div,a,p,h1{ padding:0; margin:0; font-family:
 			color:#fff;
 			font-size: 20px;
 			margin: 0px 0px 10px;
+		}
+		.s3 .text .r ul{
+			   width: 262px;
 		}
 		.s3 .text .r ul li{
 			color: #d4d4d4;
