@@ -228,7 +228,7 @@ body,html,header,section,div,ul,li,div,a,p,h1{ padding:0; margin:0; font-family:
 			background: url(../img/label.png);
 			position: absolute;
 			top: 70px;
-			left: 150px;
+			right: 150px;
 		}
 		.s3 .inner .label span{
 			color:#fff;
@@ -256,13 +256,13 @@ body,html,header,section,div,ul,li,div,a,p,h1{ padding:0; margin:0; font-family:
 		}
 		.s3 .text{
 			position: relative;
-			top: 220px;
+			top: 250px;
 		}
 		.s3 .text .l{
-			width: 530px;
+			    width: 462px;
 			height: 240px;
 			border-right: 1px #fff solid;
-			padding-right: 110px;
+			padding-right: 55px;
 			float: left;
 		}
 		.s3 .text .r{
@@ -306,7 +306,10 @@ body,html,header,section,div,ul,li,div,a,p,h1{ padding:0; margin:0; font-family:
 			line-height: 25px;
 			font-size: 14px;
 		}
-
+		
+		.more{
+			margin-top: 20px;
+		}
 		.s3 .text .r .more h5{
 			color:#fff;
 			font-size: 20px;
