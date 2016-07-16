@@ -73,7 +73,7 @@ body,html,header,section,div,ul,li,div,a,p,h1{ padding:0; margin:0; font-family:
 		    color: #fff;
 		    font-size: 20px;
 		    letter-spacing: 7px;
-		        font-weight: 300;
+		        font-weight:bolder;
         }
 
         .s1 .l .t3{
@@ -237,6 +237,7 @@ body,html,header,section,div,ul,li,div,a,p,h1{ padding:0; margin:0; font-family:
 			color:#fff;
 			font-size: 20px;
 			font-family: "MyCustomFont";
+			    font-weight: bolder;
 		}
 		.s3 .inner .label .t1{
 			position: absolute;
