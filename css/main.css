@@ -124,7 +124,7 @@ body,html,header,section,div,ul,li,div,a,p,h1{ padding:0; margin:0; font-family:
         	margin:0 auto;
         }
         .s2 .inner .bg{
-        	background: url(../img/sc2.png) center;
+        	background: url(../img/02.png) center;
         	width: 960px;
         	height: 547px;
         	background-size: contain; 
@@ -134,24 +134,24 @@ body,html,header,section,div,ul,li,div,a,p,h1{ padding:0; margin:0; font-family:
 	
 
 		.s2 .inner .bg .mobile{
-			width: 155px;
-			height: 270px;
+			width: 191px;
+			height: 339px;
 			position: relative;
-			left: 411px;
-    		top: 162px;
+			left: 387px;
+    		top: 113px;
 			background: #eee;
 			overflow: hidden;
 		}
 		.s2 .inner .bg .mobile ul{
 			position: absolute;
-			left: 0px;
-			top: 0px;
-			width: 475px;
+			left: 1px;
+   			top: 2px;
+			width: 573px;
 			height: 270px;
 		}
 		.s2 .inner .bg .mobile .pic{
-			width: 155px;
-			height: 270px;
+			width: 191px;
+			height: 339px;
 			background-size:contain;
 			float: left;
 			margin: 0px;
@@ -159,12 +159,15 @@ body,html,header,section,div,ul,li,div,a,p,h1{ padding:0; margin:0; font-family:
 		}
 		.s2 .inner .bg .mobile .pic1{
 			background: url(../img/02-01.png) no-repeat;
+			    background-size: cover;
 		}
 		.s2 .inner .bg .mobile .pic2{
 			background: url(../img/02-02.png) no-repeat;
+			    background-size: cover;
 		}
 		.s2 .inner .bg .mobile .pic3{
 			background: url(../img/02-03.png) no-repeat;
+			    background-size: cover;
 		}
         .s2 .inner .des{
         	position:absolute;
@@ -259,7 +262,7 @@ body,html,header,section,div,ul,li,div,a,p,h1{ padding:0; margin:0; font-family:
 			top: 250px;
 		}
 		.s3 .text .l{
-			    width: 462px;
+			    width: 462px;d
 			height: 240px;
 			border-right: 1px #fff solid;
 			padding-right: 55px;
