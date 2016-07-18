@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>保乎－一个有态度的保险服务平台</title>
+    <link href="css/jquery.fullPage.css" rel="stylesheet" type="text/css">
+    <link href="css/main.css" rel="stylesheet" type="text/css">
+    <!-- <link href="css/swiper.min.css" rel="stylesheet" type="text/css"> -->
+</head>
+<body>
+    <!-- 头部导航开始 -->
+    <header class="hd">
+        <div class="inner">
+            <a class="logo"><img src="img/logo.png"></a>
+            <nav>
+                <ul class="menu">
+                    <li data-menuanchor="page1" class="active"><a href="#page1">微信订阅号</a></li>
+                    <li data-menuanchor="page2"><a href="#page2">微信服务号</a></li>
+                    <li data-menuanchor="page3"><a href="#page3">关于保乎</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!-- 头部导航结束 -->
+
+    <!-- 主体开始 -->
+    <div class="con">
+
+        <div class="section s1 active">
+            <div class="inner">
+                <div class="l">
+                    <h5 class="t1"></h5>
+                    <h5 class="t2">精挑严选·实用·透明·有趣</h5>
+                    <img src="img/qrcode.png" alt="" class="qrcode">
+                    <h5 class="t3">扫一扫关注微信公众号</h5>
+                    <div class="search"></div>
+                </div>
+                <div class="r">
+                    <img src="img/mobile1.png" alt="">
+                    <div class="swiper-containerList">
+                        <ul class="swiper-wrapper">
+                            <li class="pic pic1 swiper-slide"></li>
+                            <li class="pic pic2 swiper-slide"></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+           <!--  <img src="img/wenzi.png"> -->
+        </div>
+
+        <!-- 第二页 -->
+        <div class="section s2">
+            <div class="inner">
+                 <div class="bg">
+                    <div class="mobile swiper-container">
+                        <ul class="swiper-wrapper">
+                            <li class="pic pic1 swiper-slide"></li>
+                            <li class="pic pic2 swiper-slide"></li>
+                            <li class="pic pic3 swiper-slide"></li>
+                        </ul>
+                    </div>
+                 </div>
+                 <div class="des">
+                    <div class="div" style="margin: 17px 0px 0px 50px;">
+                        <p>微信订阅号「保乎笔记」教你轻松买到好保险</p>
+                        <p style="text-align:right;">你需要的保险知识都在这里</p>
+                    </div>
+                     <img src="img/node.png" alt="" class="small">
+                 </div>
+            </div>
+        </div>
+
+        
+
+        <!-- 第三页 -->
+        <div class="section s3">
+           <!--  -->
+            <div class="inner">
+               <div class="topLogo"></div>
+               <div class="label">
+                   <span class="t1">“保乎究竟是做什么的”</span>
+                   <span class="t2">“让买保险像网购一样简单轻松”</span>
+               </div>
+               <div class="rightLogo"></div>
+
+               <div class="text">
+                   <div class="l">
+                       <p>“保乎”创立于2016年5月，是面向都是年轻白领人群的保险服务平台，这里有对保险行业深度拷问，也有给年轻人的理性投保建议。</p>
+                       <p>我们的梦想，是从消费者痛点入手，传播保险消费的基础知识，帮助年轻人树立正确的保险消费观。同时，简化保险的决策门槛，让买保险变得轻松愉快。</p>
+                       <p>“让每个人都能轻松、满意地挑选到所需要的保险，为人生保驾护航。”   是保乎团队思考与行动的起点，我们希望通过努力，使正确的保险消费观普及，让保险行业回归“面向大众、惠及人人”的积极生态。</p>
+                   </div>
+                   <div class="r">
+                       <h5>联系我们</h5>
+                       <ul>
+                           <li>
+                              <i class="icon-address"></i>
+                              地  址：广州市越秀区东风东路733号
+                              <p style="padding-left: 69px;line-height: 15px;">羊城同创汇10楼1002室</p>
+                            </li>
+                           <li><i class="icon-phone"></i>电  话：020-37657863</li>
+                           <li><i class="icon-mail"></i>邮  箱：kf@insbaohu.com</li>
+                       </ul>
+                       <div class="more">
+                           <h5>更多方式</h5>
+                           <a href="http://weibo.com/u/5976138659?topnav=1&wvr=6&topsug=1" target="_blank" class="weibo"></a>
+                           <a href="https://zhuanlan.zhihu.com/baohu" class="zhihu" target="_blank"></a>
+                       </div>
+                   </div>
+               </div>
+           </div>
+            <div class="footer">
+                <div class="bgFilter"></div>
+                <div class="bg"></div>
+                <div class="bottom">
+                    <p>@2016 广州晓惠网络科技有限公司 粤ICP备15085714号-1</p>
+                </div>
+            </div>
+            <div class="bg">
+             <!--  <img src="img/s3.jpg"> -->
+            </div>
+        </div>
+    </div>
+    <!-- 主体结束 -->
+
+<script src="js/jquery-1.8.3.min.js"></script>
+<script src="js/jquery.fullPage.min.js"></script>
+<script src="js/swiper.min.js"></script>
+<script>
+    $(function(){
+        $('.con').fullpage({
+            navigation: true,
+            anchors: ['page1', 'page2', 'page3', 'page4'],
+            menu: '.menu',
+            navigationTooltips: ['微信服务号','微信订阅号','关于保乎'],
+            verticalCentered:false,
+            afterLoad : function(index){
+               if(index == "page2"){
+                  $('#fp-nav .active span').addClass("blue");
+               }else{
+                $('#fp-nav .active span').removeClass("blue")
+               }
+            }
+
+        });
+
+
+        var  height =  $('.s3').height();
+        if(height >= 800){
+          $('.s3 .inner').css({
+            "top" : "120px"
+          })
+          $('.s2 .inner .bg').css({
+            "top" : "100px"
+          })
+          $('.s1 .inner .l').css({
+            "top" : "25%"
+          })
+          $('.s1 .inner .r').css({
+            "top" : "200px"
+          })
+
+        }
+
+    });
+      var swiper = new Swiper('.swiper-container',{
+        autoplay :2000,
+        spaceBetween : 0
+      });
+
+        var swiper = new Swiper('.swiper-containerList',{
+        autoplay :2000,
+        spaceBetween : 0,
+        freeModeMomentumBounce :true
+      });
+
+    
+</script>
+</body>
+</html>

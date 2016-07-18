@@ -1,6 +1,6 @@
 /*author : ronald*/
 /*email  : ronald_huang@foxmail.com*/
-body,html,header,section,div,ul,li,div,a,p,h1{ padding:0; margin:0; font-family:"微软雅黑"}
+body,html,header,section,div,ul,li,div,a,p,h1{ padding:0; margin:0; font-family:"MicrosoftYaHei"}
         li{ list-style:none;}
         a{ text-decoration:none;}
 	
@@ -63,10 +63,11 @@ body,html,header,section,div,ul,li,div,a,p,h1{ padding:0; margin:0; font-family:
         	background: url(../img/img1title.png);
         	height: 36px;
     		width: 467px;
+    		font-family: ""
         }
         .s1 .l .t2{
         	/*background: url(../img/img1title2.png);*/
-        	font-family: "MyCustomFont";
+        	font-family: "MyCustomFont,MicrosoftYaHei";
         	height: 22px;
 		    width: 2176px;
 		    margin-left: 80px;
