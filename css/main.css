@@ -125,34 +125,35 @@ body,html,header,section,div,ul,li,div,a,p,h1{ padding:0; margin:0; font-family:
         	margin:0 auto;
         }
         .s2 .inner .bg{
-        	background: url(../img/02.png) center;
-        	width: 960px;
-        	height: 547px;
-        	background-size: contain; 
-        	margin-top: 50px;
-        	position: relative;
+        	background: url(../img/02.png) top center no-repeat;
+		    width: 1024px;
+		    height: 650px;
+		    background-size: contain;
+		    margin-top: 50px;
+		    margin: 50px auto 0px;
+		    position: relative;
         }
 	
 
 		.s2 .inner .bg .mobile{
-			width: 191px;
-			height: 339px;
-			position: relative;
-			left: 387px;
-    		top: 113px;
-			background: #eee;
-			overflow: hidden;
+			width: 205px;
+		    height: 362px;
+		    position: relative;
+		    left: 412px;
+		    top: 110px;
+		    background: #eee;
+		    overflow: hidden;
 		}
 		.s2 .inner .bg .mobile ul{
 			position: absolute;
 			left: 1px;
    			top: 2px;
-			width: 573px;
-			height: 270px;
+			width: 615px;
+			height: 362px;
 		}
 		.s2 .inner .bg .mobile .pic{
 			width: 191px;
-			height: 339px;
+			height: 362px;
 			background-size:contain;
 			float: left;
 			margin: 0px;
